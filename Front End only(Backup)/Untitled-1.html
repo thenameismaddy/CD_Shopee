@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Dhanalakshmi Painting Works</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Sri Dhanalakshmi Painting Works</h1>
+        
+        <div>
+            <label for="customer_name">Customer Name:</label>
+            <input type="text" id="customer_name" name="customer_name" placeholder="Enter customer name">
+        </div>
+        
+        <div>
+            <label for="customer_contact">Customer Contact:</label>
+            <input type="text" id="customer_contact" name="customer_contact" placeholder="Enter customer contact number">
+        </div>
+        
+        <div>
+            <label for="customer_address">Customer Address:</label>
+            <textarea id="customer_address" name="customer_address" placeholder="Enter customer address"></textarea>
+        </div>
+        
+        <div>
+            <h2>Estimation Details:</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Particulars</th>
+                        <th>Labour</th>
+                        <th>Sq.ft</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add estimation details here -->
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" name="particulars_1" placeholder="Enter particulars"></td>
+                        <td><input type="text" name="labour_1" placeholder="Enter labour"></td>
+                        <td><input type="text" name="sq_ft_1" placeholder="Enter sq.ft"></td>
+                        <td><input type="text" name="amount_1" placeholder="Enter amount"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text" name="particulars_2" placeholder="Enter particulars"></td>
+                        <td><input type="text" name="labour_2" placeholder="Enter labour"></td>
+                        <td><input type="text" name="sq_ft_2" placeholder="Enter sq.ft"></td>
+                        <td><input type="text" name="amount_2" placeholder="Enter amount"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text" name="particulars_3" placeholder="Enter particulars"></td>
+                        <td><input type="text" name="labour_3" placeholder="Enter labour"></td>
+                        <td><input type="text" name="sq_ft_3" placeholder="Enter sq.ft"></td>
+                        <td><input type="text" name="amount_3" placeholder="Enter amount"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><input type="text" name="particulars_4" placeholder="Enter particulars"></td>
+                        <td><input type="text" name="labour_4" placeholder="Enter labour"></td>
+                        <td><input type="text" name="sq_ft_4" placeholder="Enter sq.ft"></td>
+                        <td><input type="text" name="amount_4" placeholder="Enter amount"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><input type="text" name="particulars_5" placeholder="Enter particulars"></td>
+                        <td><input type="text" name="labour_5" placeholder="Enter labour"></td>
+                        <td><input type="text" name="sq_ft_5" placeholder="Enter sq.ft"></td>
+                        <td><input type="text" name="amount_5" placeholder="Enter amount"></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div>
+            <input type="submit" value="Submit Estimate">
+        </div>
+    </form>
+</body>
+</html>
